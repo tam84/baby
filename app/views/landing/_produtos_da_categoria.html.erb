@@ -36,7 +36,7 @@
                 </div>
               </div>
             </div>
-            <h2 class="card-title" style="height: 20px; text-align: left; color:#0092a8;font-size: 22px; font-family: HelveticaNeue-Light">
+            <h2 class="card-title" style="height: 20px; text-align: left; color:#36a5b6;font-size: 22px; font-family: HelveticaNeue-Light">
               <%= h truncate(product.name, :length => 30) %>              
             </h2>
             <p class="card-description" style="color:#616a74;height: 60px; margin-top: 20px; text-align: left; font-size: 14px">
@@ -48,9 +48,9 @@
 
             <div class="card-footer">
               <div class="stats">          
-                <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>info</i>+Info").html_safe, product_path(id: product.id),{style:'color:#fff;font-size:12px;margin-top:10px; background-color: #f58a00; width:95px;', class:"btn btn-sm"}  %>
+                <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>info</i>+Info").html_safe, product_path(id: product.id),{style:'color:#fff;font-size:12px;margin-top:10px; background-color: #ff8b7c; width:95px;', class:"btn btn-sm"}  %>
             
-                  <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>email</i>Email").html_safe, new_contact_message_path,{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window', style:'color:#fff;font-size:12px;margin-top:10px; background-color: #f58a00;width:90px; margin-left:10px', class:"btn btn-sm"}  %>          
+                  <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>email</i>Email").html_safe, new_contact_message_path,{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window', style:'color:#fff;font-size:12px;margin-top:10px; background-color: #ff8b7c;width:90px; margin-left:10px', class:"btn btn-sm"}  %>          
               </div>
             </div>
 

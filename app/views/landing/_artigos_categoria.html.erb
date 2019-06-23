@@ -1,7 +1,7 @@
     <div class="col-md-12" style="margin-left: 0px; text-align: center">
 
 
-      <div class="col-md-12 mr-auto" style="text-align: left; background-color: #0092a8;height: 100%; margin-top: 0px"></br>
+      <div class="col-md-12 mr-auto" style="text-align: left; background-color: #36a5b6;height: 100%; margin-top: 0px"></br>
 
       <h3 style="color: #fff; font-weight: bold; font-size: 18px; text-align: center">Peça seu cartão fidelidade</h3></br>
 
@@ -44,7 +44,7 @@
 
 
           <div class="text-center" style="margin-top: -20px">
-            <%= f.submit "Quero descontos",  {class: 'btn btn-rose mt-4', style: "background-color:#f58a00; color:#fff; font-weight:bold"} %></br></br>
+            <%= f.submit "Quero descontos",  {class: 'btn btn-rose mt-4', style: "background-color:#ff8b7c; color:#fff; font-weight:bold"} %></br></br>
 
           </div>
 
@@ -112,7 +112,7 @@
                 </div>
               </div>
             </div>
-            <h2 class="card-title" style="height: 20px; text-align: left; color:#0092a8;font-size: 24px; font-family: HelveticaNeue-Light">
+            <h2 class="card-title" style="height: 20px; text-align: left; color:#36a5b6;font-size: 24px; font-family: HelveticaNeue-Light">
               <%= h truncate(product.name, :length => 32) %>              
             </h2>
             <p class="card-description" style="color:#616a74;height: 150px; margin-top: 20px; text-align: left; font-size: 14px">
@@ -122,9 +122,9 @@
             </div>
             <div class="card-footer">
               <div class="stats">          
-                <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>info</i>+Info").html_safe, product_path(id: product.id),{style:'color:#fff;font-size:12px;margin-top:10px; background-color: #f58a00; width:95px;', class:"btn btn-sm"}  %>
+                <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>info</i>+Info").html_safe, product_path(id: product.id),{style:'color:#fff;font-size:12px;margin-top:10px; background-color: #ff8b7c; width:95px;', class:"btn btn-sm"}  %>
             
-                  <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>attach_money</i>Descontos").html_safe, new_contact_message_path,{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window', style:'color:#fff;font-size:12px;margin-top:10px; background-color: #f58a00;width:110px; margin-left:10px', class:"btn btn-sm"}  %>          
+                  <%= link_to ("<i class='material-icons' style='margin-top:-30px; font-size:20px;margin-left:-10px'>attach_money</i>Descontos").html_safe, new_contact_message_path,{:remote => true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window', style:'color:#fff;font-size:12px;margin-top:10px; background-color: #ff8b7c;width:110px; margin-left:10px', class:"btn btn-sm"}  %>          
               </div>
             </div>
 
